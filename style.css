@@ -29,3 +29,9 @@ body {
   width: 300px;
   border-radius: 15px;
 }
+.footer:focus {
+  color: rgb(255, 255, 255);
+}
+.footer:hover {
+  color: hsl(229, 100%, 31%);
+}
