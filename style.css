@@ -1,0 +1,31 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 300px;
+  max-height: 500px;
+  min-width: 240px;
+  min-height: 480px;
+  padding: 13px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border-radius: 22px;
+}
+#skills {
+  font-size: 21px;
+  text-align: center;
+}
+#nextlevel {
+  font-size: 18px;
+  text-align: center;
+}
+.qr {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
