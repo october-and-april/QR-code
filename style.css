@@ -1,11 +1,12 @@
 body {
   font-family: "Outfit", sans-serif;
-  background-color: hsl(212, 45%, 89%);
+  background-color: hsl(309, 46%, 89%);
 }
 
 .box {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 60px;
   position: relative;
   max-width: 300px;
   max-height: 500px;
@@ -17,6 +18,7 @@ body {
   border-radius: 22px;
 }
 #skills {
+  color: hsl(309, 24%, 57%);
   font-size: 21px;
   text-align: center;
 }
@@ -28,4 +30,10 @@ body {
   height: 300px;
   width: 300px;
   border-radius: 15px;
+}
+.footer:focus {
+  color: rgb(255, 255, 255);
+}
+.footer:hover {
+  color: hsl(309, 42%, 27%);
 }
